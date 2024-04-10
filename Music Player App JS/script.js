@@ -71,6 +71,46 @@ const songs = [
         image: './static/images/New York nagaram.jpeg',
         source: './static/audio/New York nagaram.mp3',
         genre: 'Hip hop'
+    },
+    {
+        id: 9,
+        name: 'Ding Dong',
+        artist: 'Arunraja Kamaraj, Santhosh Narayanan',
+        image: './static/images/Ding Dong.jpeg',
+        source: './static/audio/Ding Dong.mp3',
+        genre: 'Rock'
+    },
+    {
+        id: 10,
+        name: 'Un Vizhigalil',
+        artist: 'Harini, G.V.Prakash',
+        image: './static/images/Un Vizhigalil.jpeg',
+        source: './static/audio/Un Vizhigalil.mp3',
+        genre: 'Classical'
+    },
+    {
+        id: 11,
+        name: 'Aila Aila',
+        artist: 'Natalie Di Luccio, Aditya Rao, A. R. Rahman',
+        image: './static/images/Aila Aila.jpeg',
+        source: './static/audio/Aila Aila.mp3',
+        genre: 'Hip hop'
+    },
+    {
+        id: 12,
+        name: 'Vilambara Idaiveli',
+        artist: 'Hiphop Tamizha, Srinisha Jayaseelan',
+        image: './static/images/Vilambara Idaiveli.jpeg',
+        source: './static/audio/Vilambara Idaiveli.mp3',
+        genre: 'Hip hop'
+    },
+    {
+        id: 13,
+        name: 'Mental Manathil',
+        artist: 'Jonita Gandhi, A. R. Rahman',
+        image: './static/images/Mental Manathil.jpeg',
+        source: './static/audio/Mental Manathil.mp3',
+        genre: 'Hip hop'
     }
 ]
 

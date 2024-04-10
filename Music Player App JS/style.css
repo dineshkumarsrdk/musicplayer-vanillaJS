@@ -42,14 +42,32 @@ a {
 /* Songs container */
 #songs-cont {
     min-width: 25%;
-    min-height: 80vh;
-    max-height: auto;
+/*    min-height: 80vh;*/
+    max-height: 84vh;
+    overflow-y: scroll;
+    position: relative;
+    /* scrollbar-color: black var(--background-container-color); */
 }
 
+#songs-cont::-webkit-scrollbar {
+    display: none;
+}
+
+/* #songs-cont:hover,
+#songs-cont:active,
+#songs-cont:focus {
+  overflow-y: scroll;
+} */
+
 #heading {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    padding: 8px 0 4px 0;
+    background-color: var(--background-container-color);
+    position: sticky;
+    top: 0px;
 }
 
 #filter select {
@@ -85,13 +103,10 @@ a {
     min-width: 35%;
     min-height: 80vh;
     max-height: auto;
-}
-
-#display-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    padding-bottom: 2%;
 }
 
 .card {
@@ -102,7 +117,7 @@ a {
     min-width: 20rem;
     min-height: 20rem;
     max-width: 20rem;
-    max-height: 20rem;
+    /* max-height: 20rem; */
 }
 
 .card-img-top {
@@ -200,9 +215,22 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-    #songs-cont, #display-cont, #playlist-cont {
-        min-width: 40%;
+    #songs-cont,
+    #display-cont,
+    #playlist-cont {
+        min-width: 70%;
+        max-width: auto;
         margin-bottom: 5vh;
+        min-height: auto;
+        padding-bottom: 2%;
+    }
+    .card {
+        min-width: 15rem;
+        min-height: 18rem;
+        max-width: 15rem;
+    }
+    audio {
+        padding: 0 3px 0 3px;
     }
     .collapse:not(.show) {
         display: block;
